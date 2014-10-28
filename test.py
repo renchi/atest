@@ -1,9 +1,9 @@
-import autotest
+import test_util
 import os
 import shutil
 
 currentPath = "C:\jenkins\copyfolders\swversion"
-srcPath = autotest.latestDir( currentPath )
+srcPath = test_util.latestDir( currentPath )
 print ('srcPath ' + srcPath)
 
 dstPath = "C:\jenkins\copyfolders\destFolder"
