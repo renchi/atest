@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f4f5f0-f0f4-4cfd-9c1d-f9e158ad5119" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workdir/destfolder/copy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workdir/swversion/copy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workdir/swversion/folder1/copy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/workdir/swversion/folder1/basic.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workdir/destfolder/sw1/basic.txt" afterPath="$PROJECT_DIR$/workdir/destfolder/sw1/basic.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workdir/swversion/folder1/sw1/basic.txt" afterPath="$PROJECT_DIR$/workdir/swversion/folder1/sw1/basic.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="atest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +41,8 @@
       <file leaf-file-name="test.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5464481" vertical-offset="0" max-vertical-offset="549">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.38251367" vertical-offset="0" max-vertical-offset="549">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -148,7 +149,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="atest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="&quot;/Absolute/Bugfix_1/sw1&quot; &quot;Yes&quot;" />
+      <option name="PARAMETERS" value="&quot;$PROJECT_DIR$/workdir/swversion/folder1&quot; &quot;Yes&quot;" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
@@ -307,7 +308,11 @@
       <created>1415863394790</created>
       <updated>1415863394790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="INSTALL and INSTTALL_LatestSw">
+      <created>1415864016617</created>
+      <updated>1415864016617</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,7 +356,8 @@
     </option>
     <MESSAGE value="updated path" />
     <MESSAGE value="corrected path" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected path" />
+    <MESSAGE value="INSTALL and INSTTALL_LatestSw" />
+    <option name="LAST_COMMIT_MESSAGE" value="INSTALL and INSTTALL_LatestSw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -385,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5464481" vertical-offset="0" max-vertical-offset="549">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.38251367" vertical-offset="0" max-vertical-offset="549">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
