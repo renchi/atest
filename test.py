@@ -3,10 +3,12 @@ import os
 import shutil
 
 def main():
+    SCRIPTPath = os.getcwd()
     currentPath = os.getcwd() + "/workdir/swversion"
     srcPath = test_util.latestDir( currentPath )
     print ('srcPath ' + srcPath)
 
+    os.chdir(SCRIPTPath)
     dstPath = os.getcwd() + "/workdir/destfolder"
     print( 'destPath =' + dstPath)
 
