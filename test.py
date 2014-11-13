@@ -20,7 +20,7 @@ def main():
     dstPath = os.getcwd() + "/workdir/destfolder"
     print( 'destPath =' + dstPath)
 
-    #test_util.del_and_copy(srcPath, dstPath)
+    test_util.del_and_copy(srcPath, dstPath)
 
 
 if __name__ == '__main__':
