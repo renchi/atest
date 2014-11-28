@@ -19,6 +19,6 @@ def main():
 
 if __name__ == '__main__':
     INSTALL_Sw =  sys.argv[1] 
-    report( "INSTALLSW = " + INSTALL_Sw )
+    print( "INSTALLSW = " + INSTALL_Sw )
 
     main()
