@@ -8,7 +8,7 @@ INSTALL_LatestSW = ""
 
 def main():
     dstPath = os.getcwd() + "/workdir/destfolder"
-    if INSTALL_Sw == "Bugfix_1"":
+    if INSTALL_Sw == "Bugfix_1":
         currentPath = os.getcwd() + "/workdir/swversion"
         srcPath = test_util.latestDir( currentPath )
         test_util.del_and_copy(srcPath, dstPath)
