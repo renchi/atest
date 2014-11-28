@@ -12,6 +12,7 @@ def main():
         currentPath = os.getcwd() + "/workdir/swversion"
         srcPath = test_util.latestDir( currentPath )
         test_util.del_and_copy(srcPath, dstPath)
+        #test_util.copydir(srcPath, dstPath)
     else:
         srcPath = INSTALL_Sw
         os.path.dirname(srcPath)
